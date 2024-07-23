@@ -15,7 +15,7 @@ displayImagePokemon = async () => {
   console.log(response);
 
   tagImg.src = response.image;
-  namePokemon.innerHTML = `<p><stong>${response.name}</stong></p>`;
+  namePokemon.innerHTML = `<p><strong>${response.name}</strong></p>`;
 };
 
 displayImagePokemon();
